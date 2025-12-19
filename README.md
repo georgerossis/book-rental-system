@@ -1,6 +1,6 @@
 Το book-rental-system είναι ένα σύστημα διαχείρισης ενοικίασης βιβλίων. 
 
-Prerequisites
+# Prerequisites
 Εγκαταστήστε τα απαραίτητα εργαλεία ανάλογα με την τεχνολογία του project:
 
 Για Java/Spring Boot (Maven):
@@ -17,7 +17,7 @@ Node.js 18+
 
 npm ή yarn
 
-Database (MongoDB/PostgreSQL)
+# Database (MongoDB/PostgreSQL)
 
 Local Development
 1. Clone το Repository
@@ -28,6 +28,7 @@ cd book-rental-system
 Δημιουργήστε αρχείο .env ή application.properties:
 
 text
+
 # Database ( παράδειγμα PostgreSQL )
 DB_HOST=localhost
 DB_PORT=5432
@@ -53,7 +54,7 @@ createdb bookrental
 
 # Εκτέλεση migrations (αν υπάρχουν)
 npm run migrate
-# ή
+ ή
 mvn flyway:migrate
 5. Local Run
 bash
@@ -62,7 +63,7 @@ mvn spring-boot:run
 
 # Node.js
 npm start
-# ή
+ ή
 npm run dev
 Πρόσβαση: http://localhost:8080
 

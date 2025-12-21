@@ -1,0 +1,45 @@
+# Dependencies
+backend/node_modules/
+frontend/node_modules/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment Variables (Protect Secrets)
+backend/.env
+backend/.env.test
+backend/.env.production
+backend/.env.local
+frontend/.env
+frontend/.env.test
+frontend/.env.production
+frontend/.env.local
+
+# Logs
+logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+pfrontend/npm-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Build/Dist (if using TypeScript or bundlers)
+dist/
+build/
+
+# Editor/IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
